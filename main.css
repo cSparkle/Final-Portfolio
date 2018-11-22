@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #f6fcfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hvr-sweep-to-bottom {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    padding: 10px;
+    color: #4a5051;
+}
+
+.hvr-sweep-to-bottom:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4a5051;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-bottom:hover {
+    color: #f6fcfd;
+}
+
+.hvr-sweep-to-bottom:hover:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+aside {
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+
+aside i {
+    background-color: #8f8f8f;
+    padding: 10px;
+    min-width: 18px;
+    color: #4a5051;
+}
+
+aside i:hover {
+    color: #30eded;
+    background-color: #4a5051;
+    cursor: pointer;
+}
+
+#main-logo {
+    width: 180px;
+    height: auto;
+    margin: 40px 0px;
+}
+
+.fas.fa-angle-down {
+    color: #8f8f8f;
+    font-size: 40px;
+    height: auto;
+}
+
+.fas.fa-angle-down:hover {
+    color: #4a5051;
+    cursor: pointer;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a5051;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#skills h1 {
+    color: #f6fcfd;
+}
+
+#skills p, #skills h2, #skills ul {
+    display: none;
+}
+
+.skill-icon {
+    font-size: 30px;
+    color: #30eded;
+    margin: 15px 0px;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#portfolio article {
+    background-color: #f6fcfd;
+    width: 90%;
+    margin: 10px 0px;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio h1, #portfolio button {
+    font-size: 24px;
+    color: #4a5051;
+    font-weight: bold;
+}
+
+#portfolio p, #portfolio a {
+    font-size: 14px;
+    padding: 10px;
+    color: #8f8f8f;
+}
+
+#portfolio a:hover {
+    font-weight: bold;
+    color: #4a5051;
+}
+
+#portfolio button {
+    background-color: #30eded;
+    border: none;
+    padding: 10px;
+}
+
+#portfolio button:hover {
+    color: #f6fcfd;
+    cursor: pointer;
+}
