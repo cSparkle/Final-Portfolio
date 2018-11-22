@@ -165,3 +165,28 @@ aside i:hover {
     color: #f6fcfd;
     cursor: pointer;
 }
+
+#articles {
+    background-color: #4a5051;
+    text-align: center;
+}
+
+#articles h1, #articles a:hover {
+    color: #f6fcfd;
+}
+
+#articles li {
+    margin: 20px 10px;
+}
+
+#articles li a {
+    font-size: 20px;
+}
+
+#articles p {
+    color: #8f8f8f;
+}
+
+#articles a {
+    color: #30eded;
+}
