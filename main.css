@@ -138,7 +138,7 @@ aside i:hover {
     height: auto;
 }
 
-#portfolio h1, #portfolio button {
+#portfolio h1, button {
     font-size: 24px;
     color: #4a5051;
     font-weight: bold;
@@ -155,13 +155,13 @@ aside i:hover {
     color: #4a5051;
 }
 
-#portfolio button {
+button {
     background-color: #30eded;
     border: none;
-    padding: 10px;
+    padding: 10px 50px;
 }
 
-#portfolio button:hover {
+button:hover {
     color: #f6fcfd;
     cursor: pointer;
 }
@@ -169,6 +169,7 @@ aside i:hover {
 #articles {
     background-color: #4a5051;
     text-align: center;
+    padding: 40px 0px;
 }
 
 #articles h1, #articles a:hover {
@@ -190,3 +191,28 @@ aside i:hover {
 #articles a {
     color: #30eded;
 }
+
+#contact img {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    color: #4a5051;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.wide-button {
+    padding: 10px 40px;
+}
+
+
