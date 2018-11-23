@@ -105,7 +105,7 @@ aside i:hover {
     padding: 20px 0px;
 }
 
-#skills h1 {
+#skills h1, #articles h1, #articles a:hover{
     color: #f6fcfd;
 }
 
@@ -138,10 +138,12 @@ aside i:hover {
     height: auto;
 }
 
-#portfolio h1, button {
+h1, button {
     font-size: 24px;
     color: #4a5051;
     font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
 }
 
 #portfolio p, #portfolio a {
@@ -172,7 +174,7 @@ button:hover {
     padding: 40px 0px;
 }
 
-#articles h1, #articles a:hover {
+ {
     color: #f6fcfd;
 }
 
@@ -212,7 +214,30 @@ input, textarea {
 }
 
 .wide-button {
-    padding: 10px 40px;
+    width: 200px;
 }
 
+footer {
+    background-color: #4a5051;
+    color: #8f8f8f;
+    text-align: center;
+    padding: 60px 30px;
+}
 
+footer button {
+    margin: 10px 0px;
+}
+
+#fiverr {
+    margin-bottom: 40px;
+}
+
+footer a {
+    color: #30eded;
+    font-size: 30px;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #8f8f8f;
+}
