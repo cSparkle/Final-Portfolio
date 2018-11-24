@@ -1,0 +1,24 @@
+{
+  "name": "finalportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cSparkle/Final-Portfolio.git"
+  },
+  "author": "Cortney Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cSparkle/Final-Portfolio/issues"
+  },
+  "homepage": "https://github.com/cSparkle/Final-Portfolio#readme",
+  "devDependencies": {
+    "gh-pages-deploy": "^0.5.0"
+  }
+}
