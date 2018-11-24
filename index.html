@@ -119,14 +119,18 @@
             <section id='contact'>
                 <h1>Let's Talk</h1>
                 <img src="images/me.jpg" alt="black and white portrait of the developer">
-                <form action="">
+                <form action="https://postmail.invotes.com/send"
+                method="post" id="email_form">
                     <label for="name">Name</label>
-                    <input type="text" id='name'>
+                    <input type="text" id='name' name='subject'>
                     <label for="email">Email</label>
-                    <input type="email" id='email'>
+                    <input type="email" id='email' name='extra_email'>
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    <button type='submit' class='hvr-sweep-to-bottom wide-button'>SEND</button>
+                    <textarea name="text" id="message" cols="30" rows="10"></textarea>
+                    <input type="hidden" name="access_token" value="zv9roiirgki8vt8rtqv5zmui" />
+                    <input type="hidden" name="success_url" value='' />
+                    <input type="hidden" name="error_url" value='' />
+                    <button id='submit_form' type='submit' class='hvr-sweep-to-bottom wide-button'>SEND</button>
                 </form>
             </section>
         </main>
